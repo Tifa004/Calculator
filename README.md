@@ -22,7 +22,7 @@ This project is a fully functional web-based calculator that supports basic arit
    - A "clear" button resets the calculator, clearing any current input or result for a fresh start.
 
 5. **Input Handling**:
-   - Stores the first and second numbers input by the user, along with the selected operator, for calculation.
+   - Stores the first and second numbers input by the user and the selected operator for calculation.
    - After pressing `=`, the result of the operation is displayed, and the result becomes the first number for future operations.
 
 6. **Error Handling**:
@@ -35,7 +35,8 @@ This project is a fully functional web-based calculator that supports basic arit
 8. **Additional Features**:
    - **Backspace Button**: Allows users to remove the last entered digit or operator.
    - **Keyboard Support**: The calculator supports keyboard input, allowing users to type numbers and operators directly from the keyboard.
-   - **Multiple Equals Button Presses**: When the `=` button is pressed multiple times consecutively, the calculator applies the same operation to the result, continuing the calculation with the previous result.
+   - **Multiple Equals Button Presses**: When the `=` button is pressed consecutively, the calculator applies the same operation to the result, continuing the calculation with the previous result.
+   - **EasterEgg**: Inserting the number `80085` directly and pressing `=` toggles darkmode.
 
 ## Technologies Used
 - **JavaScript**: Used for handling logic, operations, event handling, and updating the display.
