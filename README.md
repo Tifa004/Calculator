@@ -36,7 +36,7 @@ This project is a fully functional web-based calculator that supports basic arit
    - **Backspace Button**: Allows users to remove the last entered digit or operator.
    - **Keyboard Support**: The calculator supports keyboard input, allowing users to type numbers and operators directly from the keyboard.
    - **Multiple Equals Button Presses**: When the `=` button is pressed consecutively, the calculator applies the same operation to the result, continuing the calculation with the previous result.
-   - **EasterEgg**: Inserting the number `80085` directly and pressing `=` toggles darkmode.
+   - **EasterEgg**: Inserting the number `345` directly and pressing `=` toggles darkmode.
 
 ## Technologies Used
 - **JavaScript**: Used for handling logic, operations, event handling, and updating the display.
