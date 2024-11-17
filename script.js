@@ -63,7 +63,7 @@ function applyLightModeStyles() {
 
 // Handle theme switching on special input
 function handleThemeSwitch(n1) {
-    if (n1 === 80085 && !darkmode) {
+    if (n1 === 345 && !darkmode) {
         applyDarkModeStyles();
         darkmode = 1;
     } else {
